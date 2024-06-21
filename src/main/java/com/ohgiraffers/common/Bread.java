@@ -4,11 +4,11 @@ import java.util.Date;
 
 public class Bread extends Product {
 
-    private java.util.Date bakedDate;
+    private Date bakedDate;
 
     public Bread() {}
 
-    public Bread(String name, int price, java.util.Date bakedDate) {
+    public Bread(String name, int price, Date bakedDate) {
         super(name, price);
         this.bakedDate = bakedDate;
     }
